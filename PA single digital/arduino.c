@@ -1,8 +1,7 @@
 
 int serialdata;               //serial iletişimden aldimiz değeri tanıtıyoruz
 int ledpin = 12;              //12 yerine karışmasın diye ledpin yazıyoruz
-                   
-
+                  
 //
 void setup() {                    //setup işte
  pinMode(ledpin,OUTPUT);         //pini çıkış olarak gösteriyoruz
